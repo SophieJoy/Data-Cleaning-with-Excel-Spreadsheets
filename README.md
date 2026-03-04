@@ -15,6 +15,7 @@ Cleaning Tool: Microsoft Excel Spreadsheet
 ## 3. Sorting data
 - Right on top of the data speadsheet, click "Data", then "Sort", the pop-up window appears like this.
 <img width="913" height="405" alt="image" src="https://github.com/user-attachments/assets/f5d932f9-9584-4a45-812a-c9b3cc06b45a" />
+
 - Next, click OK
   
 <img width="975" height="425" alt="image" src="https://github.com/user-attachments/assets/5e9f09fd-ed44-4151-bc0f-10a0c1719940" />

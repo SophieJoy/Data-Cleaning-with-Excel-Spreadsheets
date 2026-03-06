@@ -1,12 +1,11 @@
 # Data-Cleaning-with-Excel-Spreadsheets
 
 ## 1. Access the data 
-Data source: student-performance-data (?????)
+Data source: Please check the "student-performance-data.csv" file
 
 Cleaning Tool: Microsoft Excel Spreadsheet
 
 ## 2. Identify how to clean the data
-- It’s important to make sure the data is clean so that the analysis will be correct. 
 - The first thing to do is check the values in the columns most relevant to the analysis and find out if there is anything to clean. 
 - In this example, the superintendent’s main objective is to determine what factors drive student performance. 
 - To begin answering this question, I will focus on the following columns: school, age, reason, Medu, Fedu.

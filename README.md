@@ -112,7 +112,8 @@ After cleaning:
 #### This variable can help identify socioeconomic factors affecting achievement.
 
 2. School Choice Motivation
-#### The dataset includes the variable reason, which describes why students chose their school.
+
+The dataset includes the variable reason, which describes why students chose their school.
 #### Possible motivations:
 | Reason     | Description               |
 | ---------- | ------------------------- |
@@ -124,37 +125,44 @@ After cleaning:
 ##### This variable can help determine whether students motivated by academic programs or school reputation perform differently.
 
 3. Comparison Between Schools
-##### The dataset includes students from two schools:
+   The dataset includes students from two schools:
 - Gabriel Pereira School (GP)
 - Mouzinho da Silveira School (MS)
-##### Comparing these schools could reveal differences in:
+  Comparing these schools could reveal differences in:
 - Academic performance
 - Student demographics
 - Parental education levels
-##### These insights could help identify best practices or areas needing improvement.
+  
+These insights could help identify best practices or areas needing improvement.
 
 ## Recommendations for the School District
-#### Based on the variables in this dataset, the school district could consider the following actions:
+
+Based on the variables in this dataset, the school district could consider the following actions:
 1. Provide Additional Academic Support Programs
-##### If students from lower parental education backgrounds show lower performance, schools could implement:
+   
+If students from lower parental education backgrounds show lower performance, schools could implement:
 - Tutoring programs
 - After-school study sessions
 - Mentoring initiatives
-#####
+
 2. Strengthen Academic Programs
-##### If students selecting schools for course offerings perform better, expanding specialized programs could improve engagement and performance.
+   
+If students selecting schools for course offerings perform better, expanding specialized programs could improve engagement and performance.
 ##### Examples:
-- STEM tracks
+-  STEM tracks
 - Language immersion
 - College preparation courses
-#####
+
 3. Use Data-Driven Decision Making
-##### Schools can regularly analyze student data to:
+   
+Schools can regularly analyze student data to:
 - Identify at-risk students early
 - Track improvement initiatives
 - Evaluate educational programs
 
 ## 10. Conclusion
-##### Data cleaning is a critical first step in any analytics project. 
-##### Ensuring that variables such as school, age, reason, and parental education are accurate allows analysts to produce reliable insights that inform better decisions.
-##### This project highlights the importance of data quality, structured workflows, and clear documentation in real-world data analysis.
+Data cleaning is a critical first step in any analytics project. 
+
+Ensuring that variables such as school, age, reason, and parental education are accurate allows analysts to produce reliable insights that inform better decisions.
+
+This project highlights the importance of data quality, structured workflows, and clear documentation in real-world data analysis.

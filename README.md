@@ -72,14 +72,90 @@ Cleaning Tool: Microsoft Excel Spreadsheet
 - Check out your spreadsheet. All the cells in the Medu and Fedu column now display numeric values.
   <img width="1180" height="510" alt="image" src="https://github.com/user-attachments/assets/a6ee8587-8c1f-4ebf-9e2b-2cdd2cd975ef" />
 
+## Data Cleaning Summary
+
+The following table summarizes the variables cleaned, the expected values, the issues detected, and the actions taken to improve data quality.
+| Variable | Expected Values                 | Issues Identified                                            | Cleaning Method                                                          |
+| -------- | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| school   | GP, MS                          | Inconsistent capitalization, extra spaces, full school names | Used **Find & Replace**, TRIM(), and Pivot Tables to standardize values  |
+| age      | 15–19                           | Ages outside range, text values, missing entries             | Converted to numeric and flagged invalid values using validation formula |
+| reason   | home, reputation, course, other | Inconsistent naming (e.g., "close", "program")               | Standardized categories using **Find & Replace and Filters**             |
+| Medu     | 0–4                             | Invalid values, text entries, missing data                   | Verified numeric coding and flagged values outside the expected range    |
+| Fedu     | 0–4                             | Invalid values, inconsistent formatting                      | Applied the same validation checks as Medu                               |
+
+
+## Final Data Quality Result
+
+After cleaning:
+
+- School values are standardized
+- Student ages are within 15–19
+- Reason categories are consistent
+- Parent education values follow valid numeric coding
+- Invalid and missing data were identified and corrected
+- The dataset is now clean and ready for further analysis of factors affecting student performance.
+
+## Key Insights & Recommendations
+
+- After cleaning and validating the dataset, the data is ready to support analysis of factors affecting student performance in the two schools.
+- These insights illustrate how the dataset could be used to guide educational decision-making.
+
+## Key Insights
+1. Parental Education May Influence Student Performance
+- Research often shows a relationship between parental education levels and student academic outcomes.
+#### Variables analyzed:
+- Medu (Mother’s education level)
+- Fedu (Father’s education level)
+#### Students whose parents have higher education levels may have access to:
+- More academic support
+- Stronger study habits
+- Greater educational expectations
+#### This variable can help identify socioeconomic factors affecting achievement.
+
+2. School Choice Motivation
+#### The dataset includes the variable reason, which describes why students chose their school.
+#### Possible motivations:
+| Reason     | Description               |
+| ---------- | ------------------------- |
+| home       | Close to home             |
+| reputation | School reputation         |
+| course     | Specific academic program |
+| other      | Other reasons             |
+
+##### This variable can help determine whether students motivated by academic programs or school reputation perform differently.
+
+3. Comparison Between Schools
+##### The dataset includes students from two schools:
+- Gabriel Pereira School (GP)
+- Mouzinho da Silveira School (MS)
+##### Comparing these schools could reveal differences in:
+- Academic performance
+- Student demographics
+- Parental education levels
+##### These insights could help identify best practices or areas needing improvement.
+
+## Recommendations for the School District
+#### Based on the variables in this dataset, the school district could consider the following actions:
+1. Provide Additional Academic Support Programs
+##### If students from lower parental education backgrounds show lower performance, schools could implement:
+- Tutoring programs
+- After-school study sessions
+- Mentoring initiatives
+#####
+2. Strengthen Academic Programs
+##### If students selecting schools for course offerings perform better, expanding specialized programs could improve engagement and performance.
+##### Examples:
+- STEM tracks
+- Language immersion
+- College preparation courses
+#####
+3. Use Data-Driven Decision Making
+##### Schools can regularly analyze student data to:
+- Identify at-risk students early
+- Track improvement initiatives
+- Evaluate educational programs
+
 ## Conclusion
-- 
-
-
-
-
-
-
-
-
-
+##### Data cleaning is a critical first step in any analytics project. 
+##### Ensuring that variables such as school, age, reason, and parental education are accurate allows analysts to produce reliable insights that inform better decisions.
+##### This project highlights the importance of data quality, structured workflows, and clear documentation in real-world data analysis.

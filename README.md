@@ -72,7 +72,7 @@ Cleaning Tool: Microsoft Excel Spreadsheet
 - Check out your spreadsheet. All the cells in the Medu and Fedu column now display numeric values.
   <img width="1180" height="510" alt="image" src="https://github.com/user-attachments/assets/a6ee8587-8c1f-4ebf-9e2b-2cdd2cd975ef" />
 
-## Data Cleaning Summary
+## 7. Data Cleaning Summary
 
 The following table summarizes the variables cleaned, the expected values, the issues detected, and the actions taken to improve data quality.
 | Variable | Expected Values                 | Issues Identified                                            | Cleaning Method                                                          |
@@ -84,7 +84,7 @@ The following table summarizes the variables cleaned, the expected values, the i
 | Fedu     | 0–4                             | Invalid values, inconsistent formatting                      | Applied the same validation checks as Medu                               |
 
 
-## Final Data Quality Result
+## 8. Final Data Quality Result
 
 After cleaning:
 
@@ -95,7 +95,7 @@ After cleaning:
 - Invalid and missing data were identified and corrected
 - The dataset is now clean and ready for further analysis of factors affecting student performance.
 
-## Key Insights & Recommendations
+## 9. Key Insights & Recommendations
 
 - After cleaning and validating the dataset, the data is ready to support analysis of factors affecting student performance in the two schools.
 - These insights illustrate how the dataset could be used to guide educational decision-making.
@@ -155,7 +155,7 @@ After cleaning:
 - Track improvement initiatives
 - Evaluate educational programs
 
-## Conclusion
+## 10. Conclusion
 ##### Data cleaning is a critical first step in any analytics project. 
 ##### Ensuring that variables such as school, age, reason, and parental education are accurate allows analysts to produce reliable insights that inform better decisions.
 ##### This project highlights the importance of data quality, structured workflows, and clear documentation in real-world data analysis.

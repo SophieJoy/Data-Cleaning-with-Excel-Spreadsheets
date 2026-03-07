@@ -9,7 +9,7 @@ Cleaning Tool: Microsoft Excel Spreadsheet
 - The first thing to do is check the values in the columns most relevant to the analysis and find out if there is anything to clean. 
 - In this example, the superintendent’s main objective is to determine what factors drive student performance. 
 - To begin answering this question, I will focus on the following columns: school, age, reason, Medu, Fedu.
-- Now, I will use sorting and filtering to clean the data in each of these columns.
+- Then, I will use sorting and filtering to clean the data in each of these columns.
 
 ## 3. Sorting data
 - Right on top of the data speadsheet, click "Data", then "Sort", the pop-up window appears like this.
@@ -33,8 +33,7 @@ Cleaning Tool: Microsoft Excel Spreadsheet
 - This can be done by applying a filter to the age column. 
 
 ## 4. Filtering data
-- To clean the data, I need to remove the ages 20, 21, and 22 from the dataset. 
-- I can start by applying a filter to the age column. Then, click OK.
+- I will start by applying a filter to the age column. Then, click OK.
 - This will single out the rows that contain the ages 20, 21, and 22. 
 - After applying the filter, there should be nine such rows (seven for the GP school and two for the MS school).
   <img width="1721" height="258" alt="image" src="https://github.com/user-attachments/assets/4d245288-58ab-47ca-b058-6a2052953455" />
